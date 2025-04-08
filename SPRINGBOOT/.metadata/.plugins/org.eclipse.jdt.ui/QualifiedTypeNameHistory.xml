@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.Size"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.Email"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.DecimalMin"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.DecimalMax"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Transient"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+    <fullyQualifiedTypeName name="com.ty.job_portal.controller.JobSeekerController"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+</qualifiedTypeNameHistroy>
