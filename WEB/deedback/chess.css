@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#container{
+    height: 150vh;
+    background-color:bisque;
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px 140px 140px 140px 140px;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 120px 120px 120px 120px 120px 120px 120px 120px;
+}
+.rio{
+    background-color: darksalmon;
+}
+#rio1{
+    background-color:bisque;
+}
+#rio3{
+    background-color: bisque;
+}
+#rio5{
+    background-color: bisque;
+}
+#rio7{
+    background-color: bisque;
+}
+#rio9{
+    background-color:darksalmon;
+}
+#rio10{
+    background-color:bisque;
+}
+#rio11{
+    background-color:darksalmon;
+}
+#rio12{
+    background-color: bisque;
+}
+#rio13{
+    background-color:darksalmon;
+}
+#rio14{
+    background-color: bisque;
+}
+#rio15{
+    background-color: darksalmon;
+}
+#rio16{
+    background-color: bisque;
+}
+#rio17{
+    background-color: bisque;
+}
+#rio18{
+    background-color: darksalmon;
+}
+#rio19{
+    background-color: bisque;
+}
+#rio20{
+    background-color:darksalmon;
+}
+#rio21{
+    background-color: bisque;
+}
+#rio22{
+    background-color: darksalmon;
+}
+#rio23{
+    background-color: bisque;
+}
+#rio24{
+    background-color: darksalmon;
+}
+#rio25{
+    background-color: darksalmon;
+}
+#rio26{
+    background-color: bisque;
+}
+#rio27{
+    background-color: darksalmon;
+}
+#rio28{
+    background-color: bisque;
+}
+#rio29{
+    background-color: darksalmon;
+}
+#rio30{
+    background-color: bisque;
+}
+#rio31{
+    background-color: darksalmon;
+}
+#rio32{
+    background-color: bisque;
+}
+#rio33{
+    background-color: bisque;
+}
+#rio34{
+    background-color: darksalmon;
+}
+#rio35{
+    background-color: bisque;
+}
+#rio36{
+    background-color: darksalmon;
+}
+#rio37{
+    background-color: bisque;
+}
+#rio38{
+    background-color: darksalmon;
+}
+#rio39{
+    background-color: bisque;
+}
+#rio40{
+    background-color: darksalmon;
+}
+#rio41{
+    background-color: darksalmon;
+}
+#rio42{
+    background-color: bisque;
+}
+#rio43{
+    background-color: darksalmon;
+}
+#rio44{
+    background-color: bisque;
+}
+#rio45{
+    background-color: darksalmon;
+}
+#rio46{
+    background-color: bisque;
+}
+#rio47{
+    background-color:darksalmon;
+}
+#rio48{
+    background-color: bisque;
+}
+#rio49{
+    background-color: bisque;
+}
+#rio50{
+    background-color: darksalmon;
+}
+#rio51{
+    background-color: bisque;
+}
+#rio52{
+    background-color:darksalmon;
+}
+#rio53{
+    background-color: bisque;
+}
+#rio54{
+    background-color:darksalmon;
+}
+#rio55{
+    background-color: bisque;
+}
+#rio56{
+    background-color: darksalmon;
+}
+#rio57{
+    background-color: darksalmon;
+}
+#rio58{
+    background-color: bisque;
+}
+#rio59{
+    background-color: darksalmon;
+}
+#rio60{
+    background-color: bisque;
+}
+#rio61{
+    background-color: darksalmon;
+}
+#rio62{
+    background-color: bisque;
+}
+#rio63{
+    background-color: darksalmon;
+}
+#rio64{
+    background-color: bisque;
+}

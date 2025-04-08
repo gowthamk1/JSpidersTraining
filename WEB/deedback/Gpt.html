@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form to Table</title>
+    <style>
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Personal Information Form</h2>
+
+    <form id="infoForm">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Collected Data</h2>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be appended here -->
+        </tbody>
+    </table>
+
+    <script>
+        // Reference to the form and table body
+        const form = document.getElementById('infoForm');
+        const tableBody = document.querySelector('#dataTable tbody');
+
+        // Listen for form submission
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent page reload
+
+            // Collect form data
+            const fname = document.getElementById('fname').value;
+            const lname = document.getElementById('lname').value;
+            const email = document.getElementById('email').value;
+
+            // Create a new row and cells
+            const newRow = tableBody.insertRow();
+            const fnameCell = newRow.insertCell(0);
+            const lnameCell = newRow.insertCell(1);
+            const emailCell = newRow.insertCell(2);
+
+            // Add the form data to the table
+            fnameCell.textContent = fname;
+            lnameCell.textContent = lname;
+            emailCell.textContent = email;
+
+            // Clear the form after submission
+            form.reset();
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec1{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(16, 17, 16);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.List{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 300px;
+    cursor: pointer;
+}
+
+.Black{
+    width: 300px;
+}
+
+.sec2{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 75, 214);
+    color: #e9eaee;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.List1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 300px;
+    cursor: pointer;
+}
+
+.Black1{
+    width: 300px;
+}
+
+.sec3{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(226, 223, 223);
+    color: rgba(20, 20, 20, 0.867);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.List2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 300px;
+    cursor: pointer;
+}
+
+.Black2{
+    width: 300px;
+}
+
+#Black{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#Blue{
+    background-color: rgb(24, 75, 214);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#Gray{
+    background-color: rgb(226, 223, 223);
+    color: rgb(31, 11, 214);
+    border: 2px solid rgb(31, 11, 214);
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+	<a href="otp"><button>OTP</button></a><br><br>
+	<a href="time"><button>TIME</button></a><br><br>
+	<a href="colour"><button style="background-color: red">COLOUR</button></a><br><br>
+	<a href="t"><button>UNKNOWN</button></a><br><br>
+</body>
+</html>
