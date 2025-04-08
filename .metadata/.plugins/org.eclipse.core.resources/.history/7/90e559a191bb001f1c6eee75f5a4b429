@@ -1,0 +1,62 @@
+package List;
+
+public class Playlist {
+	private String songName;
+	private String movieName;
+	private String singer;
+	
+	public Playlist(String songName,String movieName,String singer) {
+		super();
+		this.songName=songName;
+		this.movieName=movieName;
+		this.singer=singer;
+	}
+
+	public String getSongName() {
+		return songName;
+	}
+
+	public void setSongName(String songName) {
+		this.songName = songName;
+	}
+
+	public String getMovieName() {
+		return movieName;
+	}
+
+	public void setMovieName(String movieName) {
+		this.movieName = movieName;
+	}
+
+	public String getSinger() {
+		return singer;
+	}
+
+	public void setSinger(String singer) {
+		this.singer = singer;
+	}
+	
+}
+class BoxNode{
+	public Playlist song;
+	public BoxNode next;
+	public BoxNode prev;
+	
+}
+class SongList{
+	public BoxNode headNode;
+	public BoxNode tailNode;
+	public int totalSongs;
+	
+	public BoxNode creationDll(Playlist songlist) {
+		BoxNode node=new BoxNode();
+		node.song=songlist;
+		node.next=node.prev=node;
+		headNode=tailNode=node;
+		totalSongs=1;
+		return headNode;
+	}
+	public void forwardTraverse() {
+		BoxNode(tempNode)
+	}
+}

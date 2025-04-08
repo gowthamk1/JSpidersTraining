@@ -1,0 +1,37 @@
+package Ques;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class PatientMonitoring {
+	private Queue<PatientData> queue=new LinkedList<PatientData>();
+	final int assignPatient=10;
+	
+	public void addPatient(PatientData patient) {
+		if(queue.size()<assignPatient) {
+			queue.add(patient);
+			System.out.println(patient.toString());
+		}else {
+			System.out.println("No slot available");
+		}
+		
+	}
+	public void visitingPatients() {
+		while(!queue.isEmpty()) {
+		System.out.println("------------------------------------------------------");
+		}
+		System.out.println("All patients completed to visit");
+	}
+	public String analyzeHeartRate(int HeartRate) {
+		if (HeartRate<60 || HeartRate>100) {
+			return "Alert:Abnormal HeartRate detected";
+		}else {
+			return "Normal HeartRate";
+		}
+	}
+	public String analyzeGlucoseLevel(int GlucoseLevel) {
+		return null;
+	}
+}
+
+

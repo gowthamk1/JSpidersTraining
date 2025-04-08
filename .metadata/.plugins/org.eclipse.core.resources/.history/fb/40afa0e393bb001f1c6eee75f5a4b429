@@ -1,0 +1,11 @@
+package List;
+
+public class MusicPlayer {
+	public static void main(String[] args) {
+		SongList sl = new SongList();
+		sl.creationOfDll(new PlayList("Mayavi", "Sanjith Hegde", "Album"));
+//		sl.forwardTraverse();
+		sl.playOnce();
+
+	}
+}

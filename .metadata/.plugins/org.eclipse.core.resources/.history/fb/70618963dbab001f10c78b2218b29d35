@@ -1,0 +1,46 @@
+package Ques;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class PatientMonitoring {
+	private Queue<PatientData> queue=new LinkedList<PatientData>();
+	final int assignPatient=10;
+	
+	public void addPatient(PatientData patient) {
+		if(queue.size()<assignPatient) {
+			queue.add(patient);
+			System.out.println(patient.toString());
+		}else {
+			System.out.println("No slot available");
+		}
+		
+	}
+	public void visitingPatients() {
+		while(!queue.isEmpty()) {
+		System.out.println("------------------------------------------------------");
+		}
+		System.out.println("All patients completed to visit");
+	}
+	public String analyzeHeartRate(int HeartRate) {
+		if (HeartRate<60 || HeartRate>100) {
+			return "Alert:Abnormal HeartRate detected";
+		}else {
+			return "Normal HeartRate";
+		}
+	}
+	public String analyzeGlucoseLevel(int GlucoseLevel) {
+		return null;
+	}
+}
+
+public class Main{
+	public static void main(String[] args) {
+		PatientMonitoring patient=new PatientMonitoring();
+		patient.addPatient(new PatientData("Abc",15,"Male",54,104,"Cold"));
+		patient.addPatient(new PatientData("Def",34,"Femle",46,78,"Fever"));
+		patient.addPatient(new PatientData("Ghi",56,"Male",73,94,"Dengue"));
+		patient.addPatient(new PatientData("Jkl",38,"Female",10,104,"Colera"));
+		patient.addPatient(new PatientData("Mno",12,"Male",79,89,"Malaria"));
+	}
+}
